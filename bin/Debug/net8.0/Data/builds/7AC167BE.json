@@ -1,0 +1,108 @@
+{
+  "code": "7AC167BE",
+  "createdAt": "2025-08-15T14:58:59.9179794+00:00",
+  "parts": [
+    {
+      "Id": "cpu-i9-13900k",
+      "Category": "CPU",
+      "Name": "Intel Core i9-13900K",
+      "Brand": "Intel",
+      "Price": 3899.9,
+      "Attributes": {
+        "Socket": "LGA1700",
+        "TdpW": "125",
+        "Cores": "24",
+        "Threads": "32",
+        "Clock": "3.0GHz",
+        "Boost": "5.8GHz"
+      }
+    },
+    {
+      "Id": "mb-x570",
+      "Category": "Motherboard",
+      "Name": "Placa-m\u00E3e X570",
+      "Brand": "Gigabyte",
+      "Price": 1499.0,
+      "Attributes": {
+        "Socket": "AM4",
+        "MemoryType": "DDR4",
+        "MaxMemoryMHz": "5100",
+        "Slots": "4",
+        "PCIe": "4.0"
+      }
+    },
+    {
+      "Id": "gpu-rx6600",
+      "Category": "GPU",
+      "Name": "AMD RX 6600",
+      "Brand": "AMD",
+      "Price": 1799.9,
+      "Attributes": {
+        "TdpW": "132",
+        "VRAM": "8GB",
+        "Clock": "1.62GHz",
+        "Boost": "2.49GHz"
+      }
+    },
+    {
+      "Id": "ssd-1tb-nvme",
+      "Category": "Storage",
+      "Name": "SSD NVMe 1TB",
+      "Brand": "Samsung",
+      "Price": 499.9,
+      "Attributes": {
+        "Type": "NVMe",
+        "ReadSpeed": "7000MB/s",
+        "WriteSpeed": "5000MB/s"
+      }
+    },
+    {
+      "Id": "case-atx-mid",
+      "Category": "Case",
+      "Name": "Gabinete ATX Mid Tower",
+      "Brand": "NZXT",
+      "Price": 499.9,
+      "Attributes": {
+        "Type": "ATX",
+        "FansIncluded": "3",
+        "RGB": "Sim"
+      }
+    },
+    {
+      "Id": "cooler-liquid-240mm",
+      "Category": "Cooler",
+      "Name": "Water Cooler 240mm",
+      "Brand": "Cooler Master",
+      "Price": 599.9,
+      "Attributes": {
+        "Type": "L\u00EDquido",
+        "RadiatorSize": "240mm",
+        "RGB": "Sim"
+      }
+    },
+    {
+      "Id": "ram-8-ddr4-2666",
+      "Category": "RAM",
+      "Name": "8GB DDR4 2666MHz",
+      "Brand": "Crucial",
+      "Price": 199.9,
+      "Attributes": {
+        "Type": "DDR4",
+        "FreqMHz": "2666",
+        "Latency": "CL19"
+      }
+    },
+    {
+      "Id": "psu-1200w-80p",
+      "Category": "PSU",
+      "Name": "Fonte 1200W 80\u002B Platinum",
+      "Brand": "Seasonic",
+      "Price": 1599.9,
+      "Attributes": {
+        "WattageW": "1200",
+        "Certification": "80\u002B Platinum",
+        "Modular": "Full"
+      }
+    }
+  ]
+}

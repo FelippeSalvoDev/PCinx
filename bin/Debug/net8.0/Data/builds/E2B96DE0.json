@@ -1,0 +1,78 @@
+{
+  "code": "E2B96DE0",
+  "createdAt": "2025-08-15T14:36:50.3698089+00:00",
+  "parts": [
+    {
+      "Id": "cpu-r5-5600",
+      "Category": "CPU",
+      "Name": "AMD Ryzen 5 5600",
+      "Brand": "AMD",
+      "Price": 799.9,
+      "Attributes": {
+        "Socket": "AM4",
+        "TdpW": "65"
+      }
+    },
+    {
+      "Id": "mb-b550",
+      "Category": "Motherboard",
+      "Name": "Placa-m\u00E3e B550",
+      "Brand": "AM4",
+      "Price": 699.0,
+      "Attributes": {
+        "Socket": "AM4",
+        "MemoryType": "DDR4",
+        "MaxMemoryMHz": "4733"
+      }
+    },
+    {
+      "Id": "gpu-rx6600",
+      "Category": "GPU",
+      "Name": "Radeon RX 6600",
+      "Brand": "AMD",
+      "Price": 1299.0,
+      "Attributes": {
+        "TdpW": "132"
+      }
+    },
+    {
+      "Id": "ram-32-ddr5-6000",
+      "Category": "RAM",
+      "Name": "32GB (2x16) DDR5 6000",
+      "Brand": "Kingston",
+      "Price": 699.0,
+      "Attributes": {
+        "Type": "DDR5",
+        "FreqMHz": "6000"
+      }
+    },
+    {
+      "Id": "ssd-1tb-nvme",
+      "Category": "Storage",
+      "Name": "SSD NVMe 1TB",
+      "Brand": "WD",
+      "Price": 389.0,
+      "Attributes": {
+        "Type": "NVMe"
+      }
+    },
+    {
+      "Id": "psu-550w-80b",
+      "Category": "PSU",
+      "Name": "Fonte 550W 80\u002B Bronze",
+      "Brand": "Corsair",
+      "Price": 349.0,
+      "Attributes": {
+        "WattageW": "550"
+      }
+    },
+    {
+      "Id": "case-matx-air",
+      "Category": "Case",
+      "Name": "Gabinete mATX Airflow",
+      "Brand": "CoolerMaster",
+      "Price": 299.0,
+      "Attributes": {}
+    }
+  ]
+}

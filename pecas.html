@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PCinx - Componentes</title>
+    <link rel="stylesheet" href="/assets/css/Styles.css" />
+    <link rel="stylesheet" href="/assets/css/pecas.css" />
+    <link rel="icon" href="/assets/img/PC_inx_-removebg-preview_1_-removebg-preview.png" type="image/png" sizes="256x256">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <h1 class="logo">
+                <a href="index.html"><img src="/assets/img/PC_inx_-removebg-preview_1_-removebg-preview.png" alt="logo"></a>
+            </h1>
+            <nav class="nav-links">
+                <a href="/index.html">Home</a>
+                <a href="/pecas.html">Componentes</a>
+                <a href="/montagem.html">Montagem</a>
+                <a href="Montagem_Salva.html">Montagens Salvas</a>
+            </nav>
+            <div class="botao-temas" id="botao-temas" alt="Tema Escuro">
+                <div class="indicador-temas"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="bg">
+            <section class="pecas">
+                <div class="container">
+                    <h2 class="section-title">Componentes para PC</h2>
+                    <p class="section-subtitle">Conheça detalhadamente cada peça essencial para montar seu computador
+                    </p>
+
+                    <div class="component-categories">
+                        <div class="category-filter">
+                            <button class="filter-btn active" data-category="all">Todos</button>
+                            <button class="filter-btn" data-category="cpu">Processadores</button>
+                            <button class="filter-btn" data-category="gpu">Placas de Vídeo</button>
+                            <button class="filter-btn" data-category="motherboard">Placas-mãe</button>
+                            <button class="filter-btn" data-category="ram">Memória RAM</button>
+                            <button class="filter-btn" data-category="storage">Armazenamento</button>
+                            <button class="filter-btn" data-category="psu">Fontes</button>
+                            <button class="filter-btn" data-category="case">Gabinetes</button>
+                            <button class="filter-btn" data-category="cooling">Coolers</button>
+                        </div>
+
+                        <div class="component-grid">
+                            <!-- Processador -->
+                            <div class="component-card" data-category="cpu">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/ios-filled/100/ff2b8d/processor.png" alt="CPU">
+                                    <h3>Processador (CPU)</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>O processador é o cérebro do seu computador, responsável por executar bilhões de
+                                        cálculos por segundo para rodar desde tarefas simples até os jogos mais
+                                        exigentes. A escolha da CPU impacta diretamente no desempenho geral do sistema.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Marcas populares:</strong> Intel (Core i3/i5/i7/i9), AMD (Ryzen
+                                            3/5/7/9)</li>
+                                        <li><strong>Especificações-chave:</strong>
+                                            <br>- Núcleos (4 a 16 em modelos consumer)
+                                            <br>- Threads (HT/SMT para multitarefa)
+                                            <br>- Clock base (2.5GHz a 4.0GHz) e boost (até 5.8GHz)
+                                            <br>- Cache L3 (8MB a 64MB)
+                                            <br>- TDP (35W a 125W)
+                                        </li>
+                                        <li><strong>Soquetes atuais:</strong>
+                                            <br>- Intel: LGA1700 (12ª/13ª/14ª geração)
+                                            <br>- AMD: AM5 (Ryzen 7000), AM4 (Ryzen 5000/3000)
+                                        </li>
+                                        <li><strong>Para jogos:</strong> Priorize clocks altos (Intel tem vantagem)
+                                            <br><strong>Para produtividade:</strong> Mais núcleos (AMD geralmente
+                                            melhor)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Placa de Vídeo -->
+                            <div class="component-card" data-category="gpu">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/ios-filled/100/ff2b8d/video-card.png" alt="GPU">
+                                    <h3>Placa de Vídeo (GPU)</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>Responsável por renderizar gráficos 3D, efeitos visuais e acelerar tarefas
+                                        específicas. Essencial para jogos, edição de vídeo e aplicações de IA. As GPUs
+                                        modernas possuem arquiteturas complexas com milhares de núcleos especializados.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Marcas:</strong> NVIDIA (RTX 40 series), AMD (RX 7000 series)</li>
+                                        <li><strong>Especificações críticas:</strong>
+                                            <br>- VRAM (8GB mínimo para Full HD, 12GB+ para 4K)
+                                            <br>- Clock GPU (1500MHz a 2500MHz)
+                                            <br>- Cores CUDA (NVIDIA) ou Stream Processors (AMD)
+                                            <br>- Largura de barramento (128-bit a 384-bit)
+                                            <br>- Consumo energético (75W a 450W)
+                                        </li>
+                                        <li><strong>Tecnologias:</strong>
+                                            <br>- Ray Tracing (iluminação realista)
+                                            <br>- DLSS/FSR (upscaling inteligente)
+                                            <br>- Codificação AV1 (streaming eficiente)
+                                        </li>
+                                        <li><strong>Dica:</strong> Verifique dimensões físicas (algumas chegam a 3
+                                            slots) e conectores de alimentação (6-pin, 8-pin, 12VHPWR)</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Placa-mãe -->
+                            <div class="component-card" data-category="motherboard">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/?size=100&id=35849&format=png&color=ff2b8d"
+                                        alt="Placa Mãe">
+                                    <h3>Placa-mãe</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>A base que interconecta todos os componentes. Define quais processadores são
+                                        compatíveis, quantas memórias RAM você pode instalar e quais recursos terá
+                                        disponíveis. As placas variam desde modelos básicos até opções premium com
+                                        overclock avançado.</p>
+                                    <ul>
+                                        <li><strong>Fatores de forma:</strong>
+                                            <br>- ATX (30.5×24.4cm) - mais slots
+                                            <br>- Micro-ATX (24.4×24.4cm) - equilíbrio
+                                            <br>- Mini-ITX (17×17cm) - compacto
+                                        </li>
+                                        <li><strong>Recursos importantes:</strong>
+                                            <br>- Chipset (Z790/B760 para Intel, X670/B650 para AMD)
+                                            <br>- Slots M.2 (PCIe 4.0/5.0)
+                                            <br>- USB ports (3.2 Gen 2x2, Thunderbolt)
+                                            <br>- VRM quality (importante para overclock)
+                                            <br>- Audio codec (ALC1220, ALC4080)
+                                        </li>
+                                        <li><strong>Dica:</strong> Para Ryzen 7000, opte por placas com dissipadores no
+                                            slot M.2, pois os SSDs PCIe 5.0 esquentam muito</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Memória RAM -->
+                            <div class="component-card" data-category="ram">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/ios-filled/100/ff2b8d/memory-slot.png" alt="RAM">
+                                    <h3>Memória RAM</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>Memória de acesso rápido onde os dados ativos são armazenados temporariamente.
+                                        Mais RAM permite multitarefa suave e melhor desempenho em aplicações pesadas. A
+                                        velocidade e latência também impactam no FPS em jogos.</p>
+                                    <ul>
+                                        <li><strong>Padrões atuais:</strong>
+                                            <br>- DDR4 (2400-3600MHz)
+                                            <br>- DDR5 (4800-7200MHz)
+                                        </li>
+                                        <li><strong>Configurações recomendadas:</strong>
+                                            <br>- 16GB (mínimo para jogos atuais)
+                                            <br>- 32GB (ideal para jogos + streaming)
+                                            <br>- 64GB+ (workstations profissionais)
+                                        </li>
+                                        <li><strong>Timings:</strong> Representados como CL16-18-18-38 (quanto menor,
+                                            melhor)
+                                        <li><strong>Tecnologias:</strong>
+                                            <br>- XMP (Intel)/DOCP (AMD) - perfis pré-configurados
+                                            <br>- ECC (para workstations, corrige erros)
+                                        </li>
+                                        <li><strong>Dica:</strong> Para Ryzen, memórias com frequência 3600MHz oferecem
+                                            o melhor custo-benefício devido ao Infinity Fabric</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Armazenamento -->
+                            <div class="component-card" data-category="storage">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/?size=100&id=9937&format=png&color=ff2b8d"
+                                        alt="Armazenamento">
+                                    <h3>Armazenamento</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>Define quão rápido seu sistema liga, programas carregam e arquivos transferem. A
+                                        evolução dos SSDs revolucionou a experiência de uso, reduzindo tempos de
+                                        carregamento de segundos para milissegundos.</p>
+                                    <ul>
+                                        <li><strong>Tipos principais:</strong>
+                                            <br>- SSD NVMe (PCIe 3.0/4.0/5.0) - até 12.000MB/s
+                                            <br>- SSD SATA - até 550MB/s
+                                            <br>- HDD - até 200MB/s (para armazenamento em massa)
+                                        </li>
+                                        <li><strong>Especificações:</strong>
+                                            <br>- Capacidade (500GB a 4TB comuns)
+                                            <br>- TBW (Terabytes escritos - durabilidade)
+                                            <br>- DRAM cache (melhor performance sustentada)
+                                            <br>- Controller (Phison, Samsung, etc.)
+                                        </li>
+                                        <li><strong>Tecnologias:</strong>
+                                            <br>- QLC/TLC (tipo de células NAND)
+                                            <br>- HMB (Host Memory Buffer)
+                                            <br>- RAID 0 (para máxima performance)
+                                        </li>
+                                        <li><strong>Dica:</strong> Para sistema operacional, use SSD NVMe. Para arquivos
+                                            grandes, HDD de 4TB+ ainda vale a pena</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Fonte -->
+                            <div class="component-card" data-category="psu">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/?size=100&id=9267&format=png&color=ff2b8d"
+                                        alt="Fonte">
+                                    <h3>Fonte de Alimentação</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>Componente crítico que converte energia AC em DC estável para todos os
+                                        componentes. Uma fonte de qualidade protege seu investimento contra surtos e
+                                        variações de energia, enquanto fontes ruins podem danificar todo o sistema.</p>
+                                    <ul>
+                                        <li><strong>Certificações 80 Plus:</strong>
+                                            <br>- White (80% eficiência)
+                                            <br>- Bronze (85%)
+                                            <br>- Gold (90%)
+                                            <br>- Platinum (92%)
+                                            <br>- Titanium (94%)
+                                        </li>
+                                        <li><strong>Tipos:</strong>
+                                            <br>- Não-modular (todos cabos fixos)
+                                            <br>- Semi-modular (cabeços essenciais fixos)
+                                            <br>- Full modular (todos cabos removíveis)
+                                        </li>
+                                        <li><strong>Conectores essenciais:</strong>
+                                            <br>- 24-pin ATX (placa-mãe)
+                                            <br>- 4+4 pin EPS (CPU)
+                                            <br>- 6+2 pin PCIe (GPU)
+                                            <br>- SATA/Molex (periféricos)
+                                        </li>
+                                        <li><strong>Dica:</strong> Para uma RTX 4080 + i7, recomenda-se no mínimo 850W
+                                            Gold de marca reconhecida (Seasonic, Corsair, EVGA)</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Gabinete -->
+                            <div class="component-card" data-category="case">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/?size=100&id=9928&format=png&color=ff2b8d"
+                                        alt="Gabinete">
+                                    <h3>Gabinete</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>Mais do que apenas estética, um bom gabinete oferece fluxo de ar adequado,
+                                        facilidade de montagem e espaço para todos os componentes. Gabinetes modernos
+                                        priorizam designs com painel frontal em mesh para melhor refrigeração.</p>
+                                    <ul>
+                                        <li><strong>Considerações:</strong>
+                                            <br>- Suporte a coolers (120mm/140mm)
+                                            <br>- Espaço para GPU (até 400mm nos maiores)
+                                            <br>- Gerenciamento de cabos
+                                            <br>- Filtros anti-poeira
+                                            <br>- Bays para HDD/SSD
+                                        </li>
+                                        <li><strong>Materiais:</strong>
+                                            <br>- Aço (econômico)
+                                            <br>- Alumínio (premium)
+                                            <br>- Vidro temperado (para exibir componentes)
+                                        </li>
+                                        <li><strong>Recursos modernos:</strong>
+                                            <br>- USB-C frontal
+                                            <br>- Controle de fan hub
+                                            <br>- Suporte a radiadores (240mm/360mm)
+                                        </li>
+                                        <li><strong>Dica:</strong> Verifique clearance para air coolers (alguns chegam a
+                                            165mm de altura) e espaço atrás da placa-mãe para cabos</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Refrigeração -->
+                            <div class="component-card" data-category="cooling">
+                                <div class="component-header">
+                                    <img src="https://img.icons8.com/?size=100&id=tUNhVumwax7p&format=png&color=ff2b8d"
+                                        alt="Cooler">
+                                    <h3>Refrigeração</h3>
+                                </div>
+                                <div class="component-details">
+                                    <p>Manter temperaturas baixas prolonga a vida útil dos componentes e permite maior
+                                        performance sustentada. Sistemas de refrigeração variam desde soluções a ar
+                                        simples até complexos water coolers customizados.</p>
+                                    <ul>
+                                        <li><strong>Tipos:</strong>
+                                            <br>- Air Cooler (torre com heatpipes)
+                                            <br>- AIO Liquid Cooler (120mm/240mm/360mm)
+                                            <br>- Ventoinhas (CFM vs. ruído)
+                                            <br>- Water Cooling custom (para entusiastas)
+                                        </li>
+                                        <li><strong>Especificações:</strong>
+                                            <br>- TDP suportado (150W a 350W)
+                                            <br>- Nível de ruído (20dB a 40dB)
+                                            <br>- RPM (600-2000)
+                                            <br>- Bearing type (rifle, fluid dynamic, etc.)
+                                        </li>
+                                        <li><strong>Monitoramento:</strong>
+                                            <br>- PWM (controle dinâmico)
+                                            <br>- Software de controle (iCUE, CAM, etc.)
+                                            <br>- Sensores de temperatura
+                                        </li>
+                                        <li><strong>Dica:</strong> Para Ryzen 9/Intel i9, um AIO de 240mm ou air cooler
+                                            premium (Noctua NH-D15) são recomendados</li>
+                                    </ul>
+                                </div>
+                            </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#">Termos de uso</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Contato</a>
+            </div>
+            <img src="/assets/img/PC_inx_-removebg-preview_1_-removebg-preview.png" alt="">
+            <div class="footer-right">
+                <a href="#">@PCinx</a>
+                <a href="#">Instagram</a>
+                <a href="#">Discord</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 PCinx — inspirado por caos e tecnologia
+        </div>
+    </footer>
+
+    <script src="/assets/js/themes.js"></script>
+    <script src="/assets/js/pecas.js"></script>
+</body>
+
+</html>

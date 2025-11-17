@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rgmg4qqtFB+ZHwnnJr06er+dX7UEHjwoJcxyA4RfiQk=",
+  "Source": "pcinx-api",
+  "BasePath": "_content/pcinx-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

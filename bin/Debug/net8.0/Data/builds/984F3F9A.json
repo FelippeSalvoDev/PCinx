@@ -1,0 +1,108 @@
+{
+  "code": "984F3F9A",
+  "createdAt": "2025-08-16T17:05:20.2154783+00:00",
+  "parts": [
+    {
+      "Id": "cpu-i5-12400f",
+      "Category": "CPU",
+      "Name": "Intel Core i5-12400F",
+      "Brand": "Intel",
+      "Price": 999.0,
+      "Attributes": {
+        "Socket": "LGA1700",
+        "TdpW": "65",
+        "Cores": "6",
+        "Threads": "12",
+        "Clock": "2.5GHz",
+        "Boost": "4.4GHz"
+      }
+    },
+    {
+      "Id": "mb-x570",
+      "Category": "Motherboard",
+      "Name": "Placa-m\u00E3e X570",
+      "Brand": "Gigabyte",
+      "Price": 1499.0,
+      "Attributes": {
+        "Socket": "AM4",
+        "MemoryType": "DDR4",
+        "MaxMemoryMHz": "5100",
+        "Slots": "4",
+        "PCIe": "4.0"
+      }
+    },
+    {
+      "Id": "gpu-rx6600",
+      "Category": "GPU",
+      "Name": "AMD RX 6600",
+      "Brand": "AMD",
+      "Price": 1799.9,
+      "Attributes": {
+        "TdpW": "132",
+        "VRAM": "8GB",
+        "Clock": "1.62GHz",
+        "Boost": "2.49GHz"
+      }
+    },
+    {
+      "Id": "ram-32-ddr5-6000",
+      "Category": "RAM",
+      "Name": "32GB (2x16) DDR5 6000MHz",
+      "Brand": "Kingston",
+      "Price": 899.9,
+      "Attributes": {
+        "Type": "DDR5",
+        "FreqMHz": "6000",
+        "Latency": "CL36"
+      }
+    },
+    {
+      "Id": "psu-550w-80b",
+      "Category": "PSU",
+      "Name": "Fonte 550W 80\u002B Bronze",
+      "Brand": "Corsair",
+      "Price": 349.9,
+      "Attributes": {
+        "WattageW": "550",
+        "Certification": "80\u002B Bronze",
+        "Modular": "N\u00E3o"
+      }
+    },
+    {
+      "Id": "fan-120mm-rgb",
+      "Category": "Cooler",
+      "Name": "Fan 120mm RGB",
+      "Brand": "Deepcool",
+      "Price": 89.9,
+      "Attributes": {
+        "Size": "120mm",
+        "RGB": "Sim",
+        "Speed": "1800RPM"
+      }
+    },
+    {
+      "Id": "ssd-500gb-sata",
+      "Category": "Storage",
+      "Name": "SSD SATA 500GB",
+      "Brand": "Kingston",
+      "Price": 229.9,
+      "Attributes": {
+        "Type": "SATA",
+        "ReadSpeed": "550MB/s",
+        "WriteSpeed": "450MB/s"
+      }
+    },
+    {
+      "Id": "case-mini-itx",
+      "Category": "Case",
+      "Name": "Gabinete Mini ITX",
+      "Brand": "Lian Li",
+      "Price": 699.9,
+      "Attributes": {
+        "Type": "Mini-ITX",
+        "FansIncluded": "2",
+        "RGB": "N\u00E3o"
+      }
+    }
+  ]
+}

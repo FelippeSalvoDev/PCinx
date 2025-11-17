@@ -1,0 +1,107 @@
+{
+  "code": "A2F1E3DF",
+  "createdAt": "2025-08-15T22:04:46.8571804+00:00",
+  "parts": [
+    {
+      "Id": "cpu-i9-13900k",
+      "Category": "CPU",
+      "Name": "Intel Core i9-13900K",
+      "Brand": "Intel",
+      "Price": 3899.9,
+      "Attributes": {
+        "Socket": "LGA1700",
+        "TdpW": "125",
+        "Cores": "24",
+        "Threads": "32",
+        "Clock": "3.0GHz",
+        "Boost": "5.8GHz"
+      }
+    },
+    {
+      "Id": "mb-x570",
+      "Category": "Motherboard",
+      "Name": "Placa-m\u00E3e X570",
+      "Brand": "Gigabyte",
+      "Price": 1499.0,
+      "Attributes": {
+        "Socket": "AM4",
+        "MemoryType": "DDR4",
+        "MaxMemoryMHz": "5100",
+        "Slots": "4",
+        "PCIe": "4.0"
+      }
+    },
+    {
+      "Id": "gpu-rtx3060",
+      "Category": "GPU",
+      "Name": "NVIDIA RTX 3060",
+      "Brand": "NVIDIA",
+      "Price": 2199.9,
+      "Attributes": {
+        "TdpW": "170",
+        "VRAM": "12GB",
+        "Clock": "1.32GHz",
+        "Boost": "1.78GHz"
+      }
+    },
+    {
+      "Id": "hdd-2tb-sata",
+      "Category": "Storage",
+      "Name": "HDD 2TB SATA",
+      "Brand": "Seagate",
+      "Price": 299.9,
+      "Attributes": {
+        "Type": "HDD",
+        "RPM": "7200"
+      }
+    },
+    {
+      "Id": "psu-850w-80g",
+      "Category": "PSU",
+      "Name": "Fonte 850W 80\u002B Gold",
+      "Brand": "EVGA",
+      "Price": 799.9,
+      "Attributes": {
+        "WattageW": "850",
+        "Certification": "80\u002B Gold",
+        "Modular": "Full"
+      }
+    },
+    {
+      "Id": "case-atx-mid",
+      "Category": "Case",
+      "Name": "Gabinete ATX Mid Tower",
+      "Brand": "NZXT",
+      "Price": 499.9,
+      "Attributes": {
+        "Type": "ATX",
+        "FansIncluded": "3",
+        "RGB": "Sim"
+      }
+    },
+    {
+      "Id": "fan-120mm-rgb",
+      "Category": "Cooler",
+      "Name": "Fan 120mm RGB",
+      "Brand": "Deepcool",
+      "Price": 89.9,
+      "Attributes": {
+        "Size": "120mm",
+        "RGB": "Sim",
+        "Speed": "1800RPM"
+      }
+    },
+    {
+      "Id": "ram-8-ddr4-2666",
+      "Category": "RAM",
+      "Name": "8GB DDR4 2666MHz",
+      "Brand": "Crucial",
+      "Price": 199.9,
+      "Attributes": {
+        "Type": "DDR4",
+        "FreqMHz": "2666",
+        "Latency": "CL19"
+      }
+    }
+  ]
+}

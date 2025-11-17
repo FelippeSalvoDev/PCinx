@@ -1,0 +1,108 @@
+{
+  "code": "3076AA5C",
+  "createdAt": "2025-08-16T17:04:12.2365888+00:00",
+  "parts": [
+    {
+      "Id": "cpu-i5-12400f",
+      "Category": "CPU",
+      "Name": "Intel Core i5-12400F",
+      "Brand": "Intel",
+      "Price": 999.0,
+      "Attributes": {
+        "Socket": "LGA1700",
+        "TdpW": "65",
+        "Cores": "6",
+        "Threads": "12",
+        "Clock": "2.5GHz",
+        "Boost": "4.4GHz"
+      }
+    },
+    {
+      "Id": "mb-x570",
+      "Category": "Motherboard",
+      "Name": "Placa-m\u00E3e X570",
+      "Brand": "Gigabyte",
+      "Price": 1499.0,
+      "Attributes": {
+        "Socket": "AM4",
+        "MemoryType": "DDR4",
+        "MaxMemoryMHz": "5100",
+        "Slots": "4",
+        "PCIe": "4.0"
+      }
+    },
+    {
+      "Id": "gpu-rtx4090",
+      "Category": "GPU",
+      "Name": "NVIDIA RTX 4090",
+      "Brand": "NVIDIA",
+      "Price": 12999.9,
+      "Attributes": {
+        "TdpW": "450",
+        "VRAM": "24GB",
+        "Clock": "2.23GHz",
+        "Boost": "2.52GHz"
+      }
+    },
+    {
+      "Id": "ram-16-ddr4-3200",
+      "Category": "RAM",
+      "Name": "16GB (2x8) DDR4 3200MHz",
+      "Brand": "Corsair",
+      "Price": 349.9,
+      "Attributes": {
+        "Type": "DDR4",
+        "FreqMHz": "3200",
+        "Latency": "CL16"
+      }
+    },
+    {
+      "Id": "psu-550w-80b",
+      "Category": "PSU",
+      "Name": "Fonte 550W 80\u002B Bronze",
+      "Brand": "Corsair",
+      "Price": 349.9,
+      "Attributes": {
+        "WattageW": "550",
+        "Certification": "80\u002B Bronze",
+        "Modular": "N\u00E3o"
+      }
+    },
+    {
+      "Id": "case-atx-mid",
+      "Category": "Case",
+      "Name": "Gabinete ATX Mid Tower",
+      "Brand": "NZXT",
+      "Price": 499.9,
+      "Attributes": {
+        "Type": "ATX",
+        "FansIncluded": "3",
+        "RGB": "Sim"
+      }
+    },
+    {
+      "Id": "cooler-liquid-240mm",
+      "Category": "Cooler",
+      "Name": "Water Cooler 240mm",
+      "Brand": "Cooler Master",
+      "Price": 599.9,
+      "Attributes": {
+        "Type": "L\u00EDquido",
+        "RadiatorSize": "240mm",
+        "RGB": "Sim"
+      }
+    },
+    {
+      "Id": "ssd-2tb-nvme",
+      "Category": "Storage",
+      "Name": "SSD NVMe 2TB",
+      "Brand": "WD Black",
+      "Price": 999.9,
+      "Attributes": {
+        "Type": "NVMe",
+        "ReadSpeed": "7300MB/s",
+        "WriteSpeed": "6800MB/s"
+      }
+    }
+  ]
+}

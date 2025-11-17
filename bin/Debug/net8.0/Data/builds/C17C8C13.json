@@ -1,0 +1,107 @@
+{
+  "code": "C17C8C13",
+  "createdAt": "2025-08-16T03:09:35.3200026+00:00",
+  "parts": [
+    {
+      "Id": "cpu-r7-5800x",
+      "Category": "CPU",
+      "Name": "AMD Ryzen 7 5800X",
+      "Brand": "AMD",
+      "Price": 1499.9,
+      "Attributes": {
+        "Socket": "AM4",
+        "TdpW": "105",
+        "Cores": "8",
+        "Threads": "16",
+        "Clock": "3.8GHz",
+        "Boost": "4.7GHz"
+      }
+    },
+    {
+      "Id": "mb-b660",
+      "Category": "Motherboard",
+      "Name": "Placa-m\u00E3e B660",
+      "Brand": "MSI",
+      "Price": 1099.0,
+      "Attributes": {
+        "Socket": "LGA1700",
+        "MemoryType": "DDR4",
+        "MaxMemoryMHz": "3200",
+        "Slots": "4",
+        "PCIe": "4.0"
+      }
+    },
+    {
+      "Id": "gpu-rtx4090",
+      "Category": "GPU",
+      "Name": "NVIDIA RTX 4090",
+      "Brand": "NVIDIA",
+      "Price": 12999.9,
+      "Attributes": {
+        "TdpW": "450",
+        "VRAM": "24GB",
+        "Clock": "2.23GHz",
+        "Boost": "2.52GHz"
+      }
+    },
+    {
+      "Id": "hdd-2tb-sata",
+      "Category": "Storage",
+      "Name": "HDD 2TB SATA",
+      "Brand": "Seagate",
+      "Price": 299.9,
+      "Attributes": {
+        "Type": "HDD",
+        "RPM": "7200"
+      }
+    },
+    {
+      "Id": "case-atx-mid",
+      "Category": "Case",
+      "Name": "Gabinete ATX Mid Tower",
+      "Brand": "NZXT",
+      "Price": 499.9,
+      "Attributes": {
+        "Type": "ATX",
+        "FansIncluded": "3",
+        "RGB": "Sim"
+      }
+    },
+    {
+      "Id": "ram-8-ddr4-2666",
+      "Category": "RAM",
+      "Name": "8GB DDR4 2666MHz",
+      "Brand": "Crucial",
+      "Price": 199.9,
+      "Attributes": {
+        "Type": "DDR4",
+        "FreqMHz": "2666",
+        "Latency": "CL19"
+      }
+    },
+    {
+      "Id": "psu-1200w-80p",
+      "Category": "PSU",
+      "Name": "Fonte 1200W 80\u002B Platinum",
+      "Brand": "Seasonic",
+      "Price": 1599.9,
+      "Attributes": {
+        "WattageW": "1200",
+        "Certification": "80\u002B Platinum",
+        "Modular": "Full"
+      }
+    },
+    {
+      "Id": "cooler-air-tower",
+      "Category": "Cooler",
+      "Name": "Cooler Air Tower",
+      "Brand": "Noctua",
+      "Price": 399.9,
+      "Attributes": {
+        "Type": "Ar",
+        "TDP": "220W",
+        "Noise": "22.6dB"
+      }
+    }
+  ]
+}

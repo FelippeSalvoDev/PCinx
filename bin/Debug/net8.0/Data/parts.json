@@ -1,0 +1,2434 @@
+[
+  {
+    "Id": "cpu-r5-5600",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 5 5600",
+    "Brand": "AMD",
+    "Price": 799.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "65",
+      "Cores": "6",
+      "Threads": "12",
+      "Clock": "3.5GHz",
+      "Boost": "4.4GHz"
+    }
+  },
+  {
+    "Id": "cpu-r7-5800x",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 7 5800X",
+    "Brand": "AMD",
+    "Price": 1499.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "105",
+      "Cores": "8",
+      "Threads": "16",
+      "Clock": "3.8GHz",
+      "Boost": "4.7GHz"
+    }
+  },
+  {
+    "Id": "cpu-i5-12400f",
+    "Category": "CPU",
+    "Name": "Intel Core i5-12400F",
+    "Brand": "Intel",
+    "Price": 999.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "65",
+      "Cores": "6",
+      "Threads": "12",
+      "Clock": "2.5GHz",
+      "Boost": "4.4GHz"
+    }
+  },
+  {
+    "Id": "cpu-i9-13900k",
+    "Category": "CPU",
+    "Name": "Intel Core i9-13900K",
+    "Brand": "Intel",
+    "Price": 3899.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "125",
+      "Cores": "24",
+      "Threads": "32",
+      "Clock": "3.0GHz",
+      "Boost": "5.8GHz"
+    }
+  },
+  {
+    "Id": "mb-b550",
+    "Category": "Motherboard",
+    "Name": "Placa-mãe B550",
+    "Brand": "ASUS",
+    "Price": 899.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "4733",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-x570",
+    "Category": "Motherboard",
+    "Name": "Placa-mãe X570",
+    "Brand": "Gigabyte",
+    "Price": 1499.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "5100",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-b660",
+    "Category": "Motherboard",
+    "Name": "Placa-mãe B660",
+    "Brand": "MSI",
+    "Price": 1099.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx3060",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 3060",
+    "Brand": "NVIDIA",
+    "Price": 2199.9,
+    "Attributes": {
+      "TdpW": "170",
+      "VRAM": "12GB",
+      "Clock": "1.32GHz",
+      "Boost": "1.78GHz"
+    }
+  },
+  {
+    "Id": "gpu-rtx4090",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 4090",
+    "Brand": "NVIDIA",
+    "Price": 12999.9,
+    "Attributes": {
+      "TdpW": "450",
+      "VRAM": "24GB",
+      "Clock": "2.23GHz",
+      "Boost": "2.52GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx6600",
+    "Category": "GPU",
+    "Name": "AMD RX 6600",
+    "Brand": "AMD",
+    "Price": 1799.9,
+    "Attributes": {
+      "TdpW": "132",
+      "VRAM": "8GB",
+      "Clock": "1.62GHz",
+      "Boost": "2.49GHz"
+    }
+  },
+  {
+    "Id": "ram-16-ddr4-3200",
+    "Category": "RAM",
+    "Name": "16GB (2x8) DDR4 3200MHz",
+    "Brand": "Corsair",
+    "Price": 349.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "3200",
+      "Latency": "CL16"
+    }
+  },
+  {
+    "Id": "ram-32-ddr5-6000",
+    "Category": "RAM",
+    "Name": "32GB (2x16) DDR5 6000MHz",
+    "Brand": "Kingston",
+    "Price": 899.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "6000",
+      "Latency": "CL36"
+    }
+  },
+  {
+    "Id": "ssd-1tb-nvme",
+    "Category": "Storage",
+    "Name": "SSD NVMe 1TB",
+    "Brand": "Samsung",
+    "Price": 499.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "7000MB/s",
+      "WriteSpeed": "5000MB/s"
+    }
+  },
+  {
+    "Id": "hdd-2tb-sata",
+    "Category": "Storage",
+    "Name": "HDD 2TB SATA",
+    "Brand": "Seagate",
+    "Price": 299.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-550w-80b",
+    "Category": "PSU",
+    "Name": "Fonte 550W 80+ Bronze",
+    "Brand": "Corsair",
+    "Price": 349.9,
+    "Attributes": {
+      "WattageW": "550",
+      "Certification": "80+ Bronze",
+      "Modular": "Não"
+    }
+  },
+  {
+    "Id": "psu-850w-80g",
+    "Category": "PSU",
+    "Name": "Fonte 850W 80+ Gold",
+    "Brand": "EVGA",
+    "Price": 799.9,
+    "Attributes": {
+      "WattageW": "850",
+      "Certification": "80+ Gold",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-atx-mid",
+    "Category": "Case",
+    "Name": "Gabinete ATX Mid Tower",
+    "Brand": "NZXT",
+    "Price": 499.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "3",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-liquid-240mm",
+    "Category": "Cooler",
+    "Name": "Water Cooler 240mm",
+    "Brand": "Cooler Master",
+    "Price": 599.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "240mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "fan-120mm-rgb",
+    "Category": "Cooler",
+    "Name": "Fan 120mm RGB",
+    "Brand": "Deepcool",
+    "Price": 89.9,
+    "Attributes": {
+      "Size": "120mm",
+      "RGB": "Sim",
+      "Speed": "1800RPM"
+    }
+  },
+  {
+    "Id": "cpu-r3-4100",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 3 4100",
+    "Brand": "AMD",
+    "Price": 499.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "65",
+      "Cores": "4",
+      "Threads": "8",
+      "Clock": "3.8GHz"
+    }
+  },
+  {
+    "Id": "cpu-r9-7950x3d",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 9 7950X3D",
+    "Brand": "AMD",
+    "Price": 5299.9,
+    "Attributes": {
+      "Socket": "AM5",
+      "TdpW": "120",
+      "Cores": "16",
+      "Threads": "32",
+      "Clock": "4.2GHz",
+      "Boost": "5.7GHz",
+      "Cache3D": "128MB"
+    }
+  },
+  {
+    "Id": "cpu-i3-12100f",
+    "Category": "CPU",
+    "Name": "Intel Core i3-12100F",
+    "Brand": "Intel",
+    "Price": 599.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "58",
+      "Cores": "4",
+      "Threads": "8",
+      "Clock": "3.3GHz",
+      "Boost": "4.3GHz"
+    }
+  },
+  {
+    "Id": "mb-a520m",
+    "Category": "Motherboard",
+    "Name": "Placa-mãe A520M",
+    "Brand": "ASRock",
+    "Price": 599.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "4600",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "mb-z790",
+    "Category": "Motherboard",
+    "Name": "Placa-mãe Z790",
+    "Brand": "ASUS ROG",
+    "Price": 2899.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "7200",
+      "Slots": "4",
+      "PCIe": "5.0",
+      "WiFi": "6E"
+    }
+  },
+  {
+    "Id": "gpu-rtx3050",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 3050",
+    "Brand": "Gigabyte",
+    "Price": 1499.9,
+    "Attributes": {
+      "TdpW": "130",
+      "VRAM": "8GB",
+      "Clock": "1.55GHz",
+      "Boost": "1.78GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx7900xtx",
+    "Category": "GPU",
+    "Name": "AMD RX 7900 XTX",
+    "Brand": "Sapphire",
+    "Price": 8999.9,
+    "Attributes": {
+      "TdpW": "355",
+      "VRAM": "24GB",
+      "Clock": "1.9GHz",
+      "Boost": "2.5GHz"
+    }
+  },
+  {
+    "Id": "ram-8-ddr4-2666",
+    "Category": "RAM",
+    "Name": "8GB DDR4 2666MHz",
+    "Brand": "Crucial",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2666",
+      "Latency": "CL19"
+    }
+  },
+  {
+    "Id": "ram-64-ddr5-6400",
+    "Category": "RAM",
+    "Name": "64GB (2x32) DDR5 6400MHz",
+    "Brand": "G.Skill",
+    "Price": 1899.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "6400",
+      "Latency": "CL32"
+    }
+  },
+  {
+    "Id": "ssd-500gb-sata",
+    "Category": "Storage",
+    "Name": "SSD SATA 500GB",
+    "Brand": "Kingston",
+    "Price": 229.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "550MB/s",
+      "WriteSpeed": "450MB/s"
+    }
+  },
+  {
+    "Id": "ssd-2tb-nvme",
+    "Category": "Storage",
+    "Name": "SSD NVMe 2TB",
+    "Brand": "WD Black",
+    "Price": 999.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "7300MB/s",
+      "WriteSpeed": "6800MB/s"
+    }
+  },
+  {
+    "Id": "psu-1200w-80p",
+    "Category": "PSU",
+    "Name": "Fonte 1200W 80+ Platinum",
+    "Brand": "Seasonic",
+    "Price": 1599.9,
+    "Attributes": {
+      "WattageW": "1200",
+      "Certification": "80+ Platinum",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-mini-itx",
+    "Category": "Case",
+    "Name": "Gabinete Mini ITX",
+    "Brand": "Lian Li",
+    "Price": 699.9,
+    "Attributes": {
+      "Type": "Mini-ITX",
+      "FansIncluded": "2",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-air-tower",
+    "Category": "Cooler",
+    "Name": "Cooler Air Tower",
+    "Brand": "Noctua",
+    "Price": 399.9,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "220W",
+      "Noise": "22.6dB"
+    }
+  },
+  {
+    "Id": "cpu-r3-3100",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 3 3100",
+    "Brand": "AMD",
+    "Price": 499.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "65",
+      "Cores": "4",
+      "Threads": "8",
+      "Clock": "3.6GHz",
+      "Boost": "3.9GHz"
+    }
+  },
+  {
+    "Id": "cpu-r5-3600",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 5 3600",
+    "Brand": "AMD",
+    "Price": 799.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "65",
+      "Cores": "6",
+      "Threads": "12",
+      "Clock": "3.6GHz",
+      "Boost": "4.2GHz"
+    }
+  },
+  {
+    "Id": "cpu-r9-5900x",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 9 5900X",
+    "Brand": "AMD",
+    "Price": 2499.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "105",
+      "Cores": "12",
+      "Threads": "24",
+      "Clock": "3.7GHz",
+      "Boost": "4.8GHz"
+    }
+  },
+  {
+    "Id": "cpu-i3-13100f",
+    "Category": "CPU",
+    "Name": "Intel Core i3-13100F",
+    "Brand": "Intel",
+    "Price": 699.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "58",
+      "Cores": "4",
+      "Threads": "8",
+      "Clock": "3.4GHz",
+      "Boost": "4.5GHz"
+    }
+  },
+  {
+    "Id": "cpu-i7-12700k",
+    "Category": "CPU",
+    "Name": "Intel Core i7-12700K",
+    "Brand": "Intel",
+    "Price": 2599.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "125",
+      "Cores": "12",
+      "Threads": "20",
+      "Clock": "3.6GHz",
+      "Boost": "5.0GHz"
+    }
+  },
+  {
+    "Id": "mb-a520",
+    "Category": "Motherboard",
+    "Name": "ASUS Prime A520M-K",
+    "Brand": "ASUS",
+    "Price": 599.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "4600",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "mb-b550m",
+    "Category": "Motherboard",
+    "Name": "MSI B550M PRO-VDH WIFI",
+    "Brand": "MSI",
+    "Price": 899.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "4400",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-h610",
+    "Category": "Motherboard",
+    "Name": "Gigabyte H610M H DDR4",
+    "Brand": "Gigabyte",
+    "Price": 699.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "2",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-z690-p",
+    "Category": "Motherboard",
+    "Name": "ASUS PRIME Z690-P",
+    "Brand": "ASUS",
+    "Price": 1799.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6000",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx2060",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 2060",
+    "Brand": "NVIDIA",
+    "Price": 1599.9,
+    "Attributes": {
+      "TdpW": "160",
+      "VRAM": "6GB",
+      "Clock": "1.37GHz",
+      "Boost": "1.68GHz"
+    }
+  },
+  {
+    "Id": "gpu-rtx3070",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 3070",
+    "Brand": "NVIDIA",
+    "Price": 3799.9,
+    "Attributes": {
+      "TdpW": "220",
+      "VRAM": "8GB",
+      "Clock": "1.50GHz",
+      "Boost": "1.73GHz"
+    }
+  },
+  {
+    "Id": "gpu-rtx4080",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 4080",
+    "Brand": "NVIDIA",
+    "Price": 8999.9,
+    "Attributes": {
+      "TdpW": "320",
+      "VRAM": "16GB",
+      "Clock": "2.21GHz",
+      "Boost": "2.51GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx6500xt",
+    "Category": "GPU",
+    "Name": "AMD RX 6500 XT",
+    "Brand": "AMD",
+    "Price": 1199.9,
+    "Attributes": {
+      "TdpW": "107",
+      "VRAM": "4GB",
+      "Clock": "2.60GHz",
+      "Boost": "2.82GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx6700xt",
+    "Category": "GPU",
+    "Name": "AMD RX 6700 XT",
+    "Brand": "AMD",
+    "Price": 3299.9,
+    "Attributes": {
+      "TdpW": "230",
+      "VRAM": "12GB",
+      "Clock": "2.32GHz",
+      "Boost": "2.58GHz"
+    }
+  },
+  {
+    "Id": "ram-8-ddr4-2400",
+    "Category": "RAM",
+    "Name": "8GB DDR4 2400MHz",
+    "Brand": "Crucial",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2400",
+      "Latency": "CL17"
+    }
+  },
+  {
+    "Id": "ram-32-ddr4-3600",
+    "Category": "RAM",
+    "Name": "32GB (2x16) DDR4 3600MHz",
+    "Brand": "Corsair",
+    "Price": 799.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "3600",
+      "Latency": "CL18"
+    }
+  },
+  {
+    "Id": "ram-64-ddr5-5200",
+    "Category": "RAM",
+    "Name": "64GB (2x32) DDR5 5200MHz",
+    "Brand": "Kingston",
+    "Price": 1699.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "5200",
+      "Latency": "CL40"
+    }
+  },
+  {
+    "Id": "ssd-250gb-sata",
+    "Category": "Storage",
+    "Name": "SSD SATA 250GB",
+    "Brand": "Kingston",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "550MB/s",
+      "WriteSpeed": "400MB/s"
+    }
+  },
+  {
+    "Id": "ssd-500gb-nvme",
+    "Category": "Storage",
+    "Name": "SSD NVMe 500GB",
+    "Brand": "WD Blue",
+    "Price": 299.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "2400MB/s",
+      "WriteSpeed": "1750MB/s"
+    }
+  },
+  {
+    "Id": "psu-450w-80w",
+    "Category": "PSU",
+    "Name": "Fonte 450W 80+ White",
+    "Brand": "Corsair",
+    "Price": 249.9,
+    "Attributes": {
+      "WattageW": "450",
+      "Certification": "80+ White",
+      "Modular": "Não"
+    }
+  },
+  {
+    "Id": "psu-1000w-80p",
+    "Category": "PSU",
+    "Name": "Fonte 1000W 80+ Platinum",
+    "Brand": "Seasonic",
+    "Price": 1399.9,
+    "Attributes": {
+      "WattageW": "1000",
+      "Certification": "80+ Platinum",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-atx-full",
+    "Category": "Case",
+    "Name": "Gabinete ATX Full Tower",
+    "Brand": "Cooler Master",
+    "Price": 899.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "4",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "case-micro-atx",
+    "Category": "Case",
+    "Name": "Gabinete Micro ATX",
+    "Brand": "Thermaltake",
+    "Price": 399.9,
+    "Attributes": {
+      "Type": "Micro-ATX",
+      "FansIncluded": "2",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-liquid-360mm",
+    "Category": "Cooler",
+    "Name": "Water Cooler 360mm",
+    "Brand": "NZXT",
+    "Price": 999.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "360mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-low-profile",
+    "Category": "Cooler",
+    "Name": "Cooler Low Profile",
+    "Brand": "Noctua",
+    "Price": 349.9,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "95W",
+      "Noise": "19.2dB"
+    }
+  },
+  {
+    "Id": "cpu-r9-7900x3d",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 9 7900X3D",
+    "Brand": "AMD",
+    "Price": 4299.9,
+    "Attributes": {
+      "Socket": "AM5",
+      "TdpW": "120",
+      "Cores": "12",
+      "Threads": "24",
+      "Clock": "4.4GHz",
+      "Boost": "5.6GHz"
+    }
+  },
+  {
+    "Id": "cpu-i7-14700k",
+    "Category": "CPU",
+    "Name": "Intel Core i7-14700K",
+    "Brand": "Intel",
+    "Price": 3199.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "125",
+      "Cores": "20",
+      "Threads": "28",
+      "Clock": "3.4GHz",
+      "Boost": "5.6GHz"
+    }
+  },
+  {
+    "Id": "mb-b650m-aorus",
+    "Category": "Motherboard",
+    "Name": "Gigabyte B650M AORUS ELITE AX",
+    "Brand": "Gigabyte",
+    "Price": 1799.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6400",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-z790-maximus",
+    "Category": "Motherboard",
+    "Name": "ASUS ROG MAXIMUS Z790 HERO",
+    "Brand": "ASUS",
+    "Price": 4599.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "7800",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx4080super",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 4080 SUPER",
+    "Brand": "NVIDIA",
+    "Price": 7999.9,
+    "Attributes": {
+      "TdpW": "320",
+      "VRAM": "16GB",
+      "Clock": "2.29GHz",
+      "Boost": "2.55GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx7900gre",
+    "Category": "GPU",
+    "Name": "AMD RX 7900 GRE",
+    "Brand": "AMD",
+    "Price": 4299.9,
+    "Attributes": {
+      "TdpW": "260",
+      "VRAM": "16GB",
+      "Clock": "1.88GHz",
+      "Boost": "2.45GHz"
+    }
+  },
+  {
+    "Id": "ram-48-ddr5-6400",
+    "Category": "RAM",
+    "Name": "48GB (2x24) DDR5 6400MHz",
+    "Brand": "Corsair",
+    "Price": 1599.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "6400",
+      "Latency": "CL32"
+    }
+  },
+  {
+    "Id": "ssd-1tb-pcie5",
+    "Category": "Storage",
+    "Name": "SSD PCIe 5.0 1TB",
+    "Brand": "Seagate FireCuda 540",
+    "Price": 1299.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "10000MB/s",
+      "WriteSpeed": "10000MB/s"
+    }
+  },
+  {
+    "Id": "psu-1300w-80p",
+    "Category": "PSU",
+    "Name": "Fonte 1300W 80+ Platinum",
+    "Brand": "EVGA",
+    "Price": 1899.9,
+    "Attributes": {
+      "WattageW": "1300",
+      "Certification": "80+ Platinum",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-lancool3",
+    "Category": "Case",
+    "Name": "Lian Li LANCOOL III",
+    "Brand": "Lian Li",
+    "Price": 1099.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "4",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-liquid-280mm",
+    "Category": "Cooler",
+    "Name": "Water Cooler 280mm",
+    "Brand": "NZXT",
+    "Price": 899.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "280mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cpu-r5-8500g",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 5 8500G",
+    "Brand": "AMD",
+    "Price": 1299.9,
+    "Attributes": {
+      "Socket": "AM5",
+      "TdpW": "65",
+      "Cores": "6",
+      "Threads": "12",
+      "Clock": "4.1GHz",
+      "Boost": "5.0GHz"
+    }
+  },
+  {
+    "Id": "mb-a620m",
+    "Category": "Motherboard",
+    "Name": "ASUS TUF A620M-PLUS",
+    "Brand": "ASUS",
+    "Price": 999.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6400",
+      "Slots": "2",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx3050-6gb",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 3050 6GB",
+    "Brand": "NVIDIA",
+    "Price": 1299.9,
+    "Attributes": {
+      "TdpW": "70",
+      "VRAM": "6GB",
+      "Clock": "1.48GHz",
+      "Boost": "1.78GHz"
+    }
+  },
+  {
+    "Id": "ram-8-ddr5-4800",
+    "Category": "RAM",
+    "Name": "8GB DDR5 4800MHz",
+    "Brand": "Kingston",
+    "Price": 299.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "4800",
+      "Latency": "CL40"
+    }
+  },
+  {
+    "Id": "ssd-2tb-sata",
+    "Category": "Storage",
+    "Name": "SSD SATA 2TB",
+    "Brand": "Crucial MX500",
+    "Price": 799.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "560MB/s",
+      "WriteSpeed": "510MB/s"
+    }
+  },
+  {
+    "Id": "psu-600w-80b",
+    "Category": "PSU",
+    "Name": "Fonte 600W 80+ Bronze",
+    "Brand": "Corsair",
+    "Price": 449.9,
+    "Attributes": {
+      "WattageW": "600",
+      "Certification": "80+ Bronze",
+      "Modular": "Semi"
+    }
+  },
+  {
+    "Id": "case-nzxt-h5",
+    "Category": "Case",
+    "Name": "NZXT H5 Flow",
+    "Brand": "NZXT",
+    "Price": 699.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "2",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-air-dual",
+    "Category": "Cooler",
+    "Name": "Cooler Air Dual Tower",
+    "Brand": "Thermalright",
+    "Price": 349.9,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "250W",
+      "Noise": "25.6dB"
+    }
+  },
+  {
+    "Id": "cpu-r5-5600gt",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 5 5600GT",
+    "Brand": "AMD",
+    "Price": 899.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "65",
+      "Cores": "6",
+      "Threads": "12",
+      "Clock": "3.6GHz",
+      "Boost": "4.6GHz"
+    }
+  },
+  {
+    "Id": "cpu-i5-13500",
+    "Category": "CPU",
+    "Name": "Intel Core i5-13500",
+    "Brand": "Intel",
+    "Price": 1399.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "65",
+      "Cores": "14",
+      "Threads": "20",
+      "Clock": "2.5GHz",
+      "Boost": "4.8GHz"
+    }
+  },
+  {
+    "Id": "mb-b760m-ds3h",
+    "Category": "Motherboard",
+    "Name": "Gigabyte B760M DS3H",
+    "Brand": "Gigabyte",
+    "Price": 1099.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "5333",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-a620m-hdv",
+    "Category": "Motherboard",
+    "Name": "ASRock A620M-HDV",
+    "Brand": "ASRock",
+    "Price": 799.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6400",
+      "Slots": "2",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx4060ti-16gb",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 4060 Ti 16GB",
+    "Brand": "NVIDIA",
+    "Price": 2899.9,
+    "Attributes": {
+      "TdpW": "165",
+      "VRAM": "16GB",
+      "Clock": "2.31GHz",
+      "Boost": "2.54GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx7700xt",
+    "Category": "GPU",
+    "Name": "AMD RX 7700 XT",
+    "Brand": "AMD",
+    "Price": 3299.9,
+    "Attributes": {
+      "TdpW": "245",
+      "VRAM": "12GB",
+      "Clock": "2.17GHz",
+      "Boost": "2.54GHz"
+    }
+  },
+  {
+    "Id": "ram-16-ddr4-3600-rgb",
+    "Category": "RAM",
+    "Name": "16GB (2x8) DDR4 3600MHz RGB",
+    "Brand": "Team Group",
+    "Price": 499.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "3600",
+      "Latency": "CL18"
+    }
+  },
+  {
+    "Id": "ram-32-ddr5-5600-rgb",
+    "Category": "RAM",
+    "Name": "32GB (2x16) DDR5 5600MHz RGB",
+    "Brand": "ADATA",
+    "Price": 999.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "5600",
+      "Latency": "CL36"
+    }
+  },
+  {
+    "Id": "ssd-500gb-nvme-gen4",
+    "Category": "Storage",
+    "Name": "SSD NVMe 500GB Gen4",
+    "Brand": "WD SN770",
+    "Price": 349.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "5150MB/s",
+      "WriteSpeed": "4900MB/s"
+    }
+  },
+  {
+    "Id": "hdd-6tb-nas",
+    "Category": "Storage",
+    "Name": "HDD 6TB NAS",
+    "Brand": "Seagate IronWolf",
+    "Price": 999.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-750w-80g-sfx",
+    "Category": "PSU",
+    "Name": "Fonte 750W 80+ Gold SFX",
+    "Brand": "Silverstone",
+    "Price": 899.9,
+    "Attributes": {
+      "WattageW": "750",
+      "Certification": "80+ Gold",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "psu-1000w-80g-atx3",
+    "Category": "PSU",
+    "Name": "Fonte 1000W 80+ Gold ATX3.0",
+    "Brand": "MSI",
+    "Price": 1299.9,
+    "Attributes": {
+      "WattageW": "1000",
+      "Certification": "80+ Gold",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-fractal-north",
+    "Category": "Case",
+    "Name": "Fractal Design North",
+    "Brand": "Fractal",
+    "Price": 1199.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "2",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "case-cooler-master-q300l",
+    "Category": "Case",
+    "Name": "Cooler Master Q300L",
+    "Brand": "Cooler Master",
+    "Price": 399.9,
+    "Attributes": {
+      "Type": "Micro-ATX",
+      "FansIncluded": "1",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-liquid-120mm",
+    "Category": "Cooler",
+    "Name": "Water Cooler 120mm",
+    "Brand": "Deepcool",
+    "Price": 349.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "120mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-air-single-tower",
+    "Category": "Cooler",
+    "Name": "Cooler Air Single Tower",
+    "Brand": "ID-Cooling",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "150W",
+      "Noise": "28.5dB"
+    }
+  },
+  {
+    "Id": "cpu-i3-13100",
+    "Category": "CPU",
+    "Name": "Intel Core i3-13100",
+    "Brand": "Intel",
+    "Price": 699.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "60",
+      "Cores": "4",
+      "Threads": "8",
+      "Clock": "3.4GHz",
+      "Boost": "4.5GHz"
+    }
+  },
+  {
+    "Id": "mb-h610m-k",
+    "Category": "Motherboard",
+    "Name": "ASUS H610M-K",
+    "Brand": "ASUS",
+    "Price": 699.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "2",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-b450m-ds3h",
+    "Category": "Motherboard",
+    "Name": "Gigabyte B450M DS3H",
+    "Brand": "Gigabyte",
+    "Price": 599.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "4",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "cpu-r7-5700x3d",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 7 5700X3D",
+    "Brand": "AMD",
+    "Price": 1699.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "105",
+      "Cores": "8",
+      "Threads": "16",
+      "Clock": "3.0GHz",
+      "Boost": "4.1GHz"
+    }
+  },
+  {
+    "Id": "cpu-i5-14400f",
+    "Category": "CPU",
+    "Name": "Intel Core i5-14400F",
+    "Brand": "Intel",
+    "Price": 1299.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "65",
+      "Cores": "10",
+      "Threads": "16",
+      "Clock": "2.5GHz",
+      "Boost": "4.7GHz"
+    }
+  },
+  {
+    "Id": "mb-b650m-p",
+    "Category": "Motherboard",
+    "Name": "ASUS PRIME B650M-P",
+    "Brand": "ASUS",
+    "Price": 1199.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6000",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "mb-z690-a",
+    "Category": "Motherboard",
+    "Name": "MSI PRO Z690-A",
+    "Brand": "MSI",
+    "Price": 1799.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "5000",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx4070s",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 4070 SUPER",
+    "Brand": "NVIDIA",
+    "Price": 3899.9,
+    "Attributes": {
+      "TdpW": "220",
+      "VRAM": "12GB",
+      "Clock": "1.98GHz",
+      "Boost": "2.48GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx7600xt",
+    "Category": "GPU",
+    "Name": "AMD RX 7600 XT",
+    "Brand": "AMD",
+    "Price": 1999.9,
+    "Attributes": {
+      "TdpW": "190",
+      "VRAM": "16GB",
+      "Clock": "2.47GHz",
+      "Boost": "2.76GHz"
+    }
+  },
+  {
+    "Id": "ram-64-ddr4-3200",
+    "Category": "RAM",
+    "Name": "64GB (2x32) DDR4 3200MHz",
+    "Brand": "Corsair Vengeance",
+    "Price": 1099.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "3200",
+      "Latency": "CL16"
+    }
+  },
+  {
+    "Id": "ssd-250gb-nvme",
+    "Category": "Storage",
+    "Name": "SSD NVMe 250GB",
+    "Brand": "Kingston NV2",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "3500MB/s",
+      "WriteSpeed": "2100MB/s"
+    }
+  },
+  {
+    "Id": "psu-650w-80b",
+    "Category": "PSU",
+    "Name": "Fonte 650W 80+ Bronze",
+    "Brand": "EVGA",
+    "Price": 499.9,
+    "Attributes": {
+      "WattageW": "650",
+      "Certification": "80+ Bronze",
+      "Modular": "Não"
+    }
+  },
+  {
+    "Id": "case-lian-li-216",
+    "Category": "Case",
+    "Name": "Lian Li LANCOOL 216",
+    "Brand": "Lian Li",
+    "Price": 799.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "2",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-liquid-360mm-rgb",
+    "Category": "Cooler",
+    "Name": "Water Cooler 360mm RGB",
+    "Brand": "Deepcool LT720",
+    "Price": 899.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "360mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cpu-r5-7500f",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 5 7500F",
+    "Brand": "AMD",
+    "Price": 1199.9,
+    "Attributes": {
+      "Socket": "AM5",
+      "TdpW": "65",
+      "Cores": "6",
+      "Threads": "12",
+      "Clock": "3.7GHz",
+      "Boost": "5.0GHz"
+    }
+  },
+  {
+    "Id": "mb-b760m-gaming",
+    "Category": "Motherboard",
+    "Name": "Gigabyte B760M GAMING X",
+    "Brand": "Gigabyte",
+    "Price": 1299.0,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "5333",
+      "Slots": "4",
+      "PCIe": "4.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx3060-12gb",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 3060 12GB",
+    "Brand": "NVIDIA",
+    "Price": 1899.9,
+    "Attributes": {
+      "TdpW": "170",
+      "VRAM": "12GB",
+      "Clock": "1.32GHz",
+      "Boost": "1.78GHz"
+    }
+  },
+  {
+    "Id": "ram-16-ddr5-5200",
+    "Category": "RAM",
+    "Name": "16GB (2x8) DDR5 5200MHz",
+    "Brand": "Team Group",
+    "Price": 599.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "5200",
+      "Latency": "CL38"
+    }
+  },
+  {
+    "Id": "ssd-2tb-sata-ssd",
+    "Category": "Storage",
+    "Name": "SSD SATA 2TB",
+    "Brand": "Crucial MX500",
+    "Price": 799.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "560MB/s",
+      "WriteSpeed": "510MB/s"
+    }
+  },
+  {
+    "Id": "psu-850w-80g-atx3",
+    "Category": "PSU",
+    "Name": "Fonte 850W 80+ Gold ATX3.0",
+    "Brand": "Corsair",
+    "Price": 999.9,
+    "Attributes": {
+      "WattageW": "850",
+      "Certification": "80+ Gold",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-nzxt-h7-flow",
+    "Category": "Case",
+    "Name": "NZXT H7 Flow",
+    "Brand": "NZXT",
+    "Price": 999.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "3",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-air-low-profile",
+    "Category": "Cooler",
+    "Name": "Cooler Air Low Profile",
+    "Brand": "Noctua NH-L9i",
+    "Price": 349.9,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "65W",
+      "Noise": "23.6dB"
+    }
+  },
+  {
+    "Id": "cpu-celeron-g6900",
+    "Category": "CPU",
+    "Name": "Intel Celeron G6900",
+    "Brand": "Intel",
+    "Price": 299.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "46",
+      "Cores": "2",
+      "Threads": "2",
+      "Clock": "3.4GHz"
+    }
+  },
+  {
+    "Id": "mb-a320m-hdv",
+    "Category": "Motherboard",
+    "Name": "ASRock A320M-HDV",
+    "Brand": "ASRock",
+    "Price": 399.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "mb-h510m-h",
+    "Category": "Motherboard",
+    "Name": "Gigabyte H510M-H",
+    "Brand": "Gigabyte",
+    "Price": 449.0,
+    "Attributes": {
+      "Socket": "LGA1200",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "2933",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "gpu-gt-1030",
+    "Category": "GPU",
+    "Name": "NVIDIA GT 1030",
+    "Brand": "NVIDIA",
+    "Price": 499.9,
+    "Attributes": {
+      "TdpW": "30",
+      "VRAM": "2GB",
+      "Clock": "1.23GHz",
+      "Boost": "1.47GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx-550",
+    "Category": "GPU",
+    "Name": "AMD RX 550",
+    "Brand": "AMD",
+    "Price": 599.9,
+    "Attributes": {
+      "TdpW": "50",
+      "VRAM": "4GB",
+      "Clock": "1.10GHz",
+      "Boost": "1.18GHz"
+    }
+  },
+  {
+    "Id": "ram-4gb-ddr4",
+    "Category": "RAM",
+    "Name": "4GB DDR4 2400MHz",
+    "Brand": "Kingston ValueRAM",
+    "Price": 129.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2400",
+      "Latency": "CL17"
+    }
+  },
+  {
+    "Id": "ram-8gb-ddr3",
+    "Category": "RAM",
+    "Name": "8GB DDR3 1600MHz",
+    "Brand": "Crucial",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "DDR3",
+      "FreqMHz": "1600",
+      "Latency": "CL11"
+    }
+  },
+  {
+    "Id": "ssd-120gb-sata",
+    "Category": "Storage",
+    "Name": "SSD SATA 120GB",
+    "Brand": "Kingston A400",
+    "Price": 99.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "500MB/s",
+      "WriteSpeed": "320MB/s"
+    }
+  },
+  {
+    "Id": "hdd-500gb-sata",
+    "Category": "Storage",
+    "Name": "HDD 500GB SATA",
+    "Brand": "Seagate Barracuda",
+    "Price": 149.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-400w-80w",
+    "Category": "PSU",
+    "Name": "Fonte 400W 80+ White",
+    "Brand": "EVGA",
+    "Price": 199.9,
+    "Attributes": {
+      "WattageW": "400",
+      "Certification": "80+ White",
+      "Modular": "Não"
+    }
+  },
+  {
+    "Id": "case-generic-mid",
+    "Category": "Case",
+    "Name": "Gabinete Genérico Mid Tower",
+    "Brand": "Rise Mode",
+    "Price": 149.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "1",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-stock-amd",
+    "Category": "Cooler",
+    "Name": "Cooler Stock AMD",
+    "Brand": "AMD",
+    "Price": 0.0,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "65W",
+      "Noise": "35.0dB"
+    }
+  },
+  {
+    "Id": "cpu-athlon-3000g",
+    "Category": "CPU",
+    "Name": "AMD Athlon 3000G",
+    "Brand": "AMD",
+    "Price": 349.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "35",
+      "Cores": "2",
+      "Threads": "4",
+      "Clock": "3.5GHz"
+    }
+  },
+  {
+    "Id": "mb-a520m-k",
+    "Category": "Motherboard",
+    "Name": "ASUS Prime A520M-K",
+    "Brand": "ASUS",
+    "Price": 499.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "4600",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "gpu-gt-710",
+    "Category": "GPU",
+    "Name": "NVIDIA GT 710",
+    "Brand": "NVIDIA",
+    "Price": 249.9,
+    "Attributes": {
+      "TdpW": "19",
+      "VRAM": "2GB",
+      "Clock": "0.95GHz"
+    }
+  },
+  {
+    "Id": "ram-2gb-ddr4",
+    "Category": "RAM",
+    "Name": "2GB DDR4 2666MHz",
+    "Brand": "Hikvision",
+    "Price": 79.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2666",
+      "Latency": "CL19"
+    }
+  },
+  {
+    "Id": "ssd-64gb-sata",
+    "Category": "Storage",
+    "Name": "SSD SATA 64GB",
+    "Brand": "Kingston",
+    "Price": 69.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "500MB/s",
+      "WriteSpeed": "400MB/s"
+    }
+  },
+  {
+    "Id": "case-mini-itx-simple",
+    "Category": "Case",
+    "Name": "Gabinete Mini ITX Simples",
+    "Brand": "TGT",
+    "Price": 99.9,
+    "Attributes": {
+      "Type": "Mini-ITX",
+      "FansIncluded": "0",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cpu-r7-8700g",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 7 8700G",
+    "Brand": "AMD",
+    "Price": 2199.9,
+    "Attributes": {
+      "Socket": "AM5",
+      "TdpW": "65",
+      "Cores": "8",
+      "Threads": "16",
+      "Clock": "4.2GHz",
+      "Boost": "5.1GHz"
+    }
+  },
+  {
+    "Id": "mb-b650e-f",
+    "Category": "Motherboard",
+    "Name": "ASUS ROG STRIX B650E-F",
+    "Brand": "ASUS",
+    "Price": 1999.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6400",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx4070ti-s",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 4070 Ti SUPER",
+    "Brand": "NVIDIA",
+    "Price": 4999.9,
+    "Attributes": {
+      "TdpW": "285",
+      "VRAM": "16GB",
+      "Clock": "2.34GHz",
+      "Boost": "2.61GHz"
+    }
+  },
+  {
+    "Id": "ram-96-ddr5-6000",
+    "Category": "RAM",
+    "Name": "96GB (2x48) DDR5 6000MHz",
+    "Brand": "G.Skill",
+    "Price": 2799.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "6000",
+      "Latency": "CL40"
+    }
+  },
+  {
+    "Id": "ssd-4tb-pcie5",
+    "Category": "Storage",
+    "Name": "SSD PCIe 5.0 4TB",
+    "Brand": "Corsair MP700",
+    "Price": 2999.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "12000MB/s",
+      "WriteSpeed": "10000MB/s"
+    }
+  },
+  {
+    "Id": "psu-1600w-80t",
+    "Category": "PSU",
+    "Name": "Fonte 1600W 80+ Titanium",
+    "Brand": "Seasonic",
+    "Price": 2499.9,
+    "Attributes": {
+      "WattageW": "1600",
+      "Certification": "80+ Titanium",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-hyte-y70",
+    "Category": "Case",
+    "Name": "HYTE Y70 Touch",
+    "Brand": "HYTE",
+    "Price": 1999.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "4",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-liquid-420mm",
+    "Category": "Cooler",
+    "Name": "Water Cooler 420mm",
+    "Brand": "Arctic",
+    "Price": 1199.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "420mm",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "gpu-rx7800xt",
+    "Category": "GPU",
+    "Name": "AMD RX 7800 XT",
+    "Brand": "AMD",
+    "Price": 3799.9,
+    "Attributes": {
+      "TdpW": "263",
+      "VRAM": "16GB",
+      "Clock": "2.13GHz",
+      "Boost": "2.43GHz"
+    }
+  },
+  {
+    "Id": "mb-x670e-e",
+    "Category": "Motherboard",
+    "Name": "ASUS ROG CROSSHAIR X670E EXTREME",
+    "Brand": "ASUS",
+    "Price": 4999.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "6400",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "hdd-10tb-nas",
+    "Category": "Storage",
+    "Name": "HDD 10TB NAS",
+    "Brand": "WD Red Pro",
+    "Price": 1599.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-2000w-80p",
+    "Category": "PSU",
+    "Name": "Fonte 2000W 80+ Platinum",
+    "Brand": "EVGA",
+    "Price": 2999.9,
+    "Attributes": {
+      "WattageW": "2000",
+      "Certification": "80+ Platinum",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-thermaltake-core-p8",
+    "Category": "Case",
+    "Name": "Thermaltake Core P8 TG",
+    "Brand": "Thermaltake",
+    "Price": 1499.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "0",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-liquid-custom",
+    "Category": "Cooler",
+    "Name": "Kit Water Cooling Custom",
+    "Brand": "EKWB",
+    "Price": 2499.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "360mm + 240mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cpu-r9-8950x",
+    "Category": "CPU",
+    "Name": "AMD Ryzen 9 8950X",
+    "Brand": "AMD",
+    "Price": 5999.9,
+    "Attributes": {
+      "Socket": "AM5",
+      "TdpW": "170",
+      "Cores": "24",
+      "Threads": "48",
+      "Clock": "4.8GHz",
+      "Boost": "6.2GHz"
+    }
+  },
+  {
+    "Id": "cpu-i9-15900k",
+    "Category": "CPU",
+    "Name": "Intel Core i9-15900K",
+    "Brand": "Intel",
+    "Price": 5899.9,
+    "Attributes": {
+      "Socket": "LGA1851",
+      "TdpW": "150",
+      "Cores": "32",
+      "Threads": "40",
+      "Clock": "4.0GHz",
+      "Boost": "6.5GHz"
+    }
+  },
+  {
+    "Id": "mb-x870e-f",
+    "Category": "Motherboard",
+    "Name": "ASUS ROG STRIX X870E-F",
+    "Brand": "ASUS",
+    "Price": 3499.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "8000",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "mb-z890-a",
+    "Category": "Motherboard",
+    "Name": "MSI PRO Z890-A",
+    "Brand": "MSI",
+    "Price": 2899.0,
+    "Attributes": {
+      "Socket": "LGA1851",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "7800",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "gpu-rtx5090",
+    "Category": "GPU",
+    "Name": "NVIDIA RTX 5090",
+    "Brand": "NVIDIA",
+    "Price": 19999.9,
+    "Attributes": {
+      "TdpW": "500",
+      "VRAM": "32GB",
+      "Clock": "2.8GHz",
+      "Boost": "3.2GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx8950xtx",
+    "Category": "GPU",
+    "Name": "AMD RX 8950 XTX",
+    "Brand": "AMD",
+    "Price": 12999.9,
+    "Attributes": {
+      "TdpW": "400",
+      "VRAM": "32GB",
+      "Clock": "2.5GHz",
+      "Boost": "3.0GHz"
+    }
+  },
+  {
+    "Id": "ram-128-ddr5-7200",
+    "Category": "RAM",
+    "Name": "128GB (4x32) DDR5 7200MHz",
+    "Brand": "G.Skill",
+    "Price": 4599.9,
+    "Attributes": {
+      "Type": "DDR5",
+      "FreqMHz": "7200",
+      "Latency": "CL34"
+    }
+  },
+  {
+    "Id": "ssd-8tb-pcie5",
+    "Category": "Storage",
+    "Name": "SSD PCIe 5.0 8TB",
+    "Brand": "Samsung 990 Pro",
+    "Price": 4999.9,
+    "Attributes": {
+      "Type": "NVMe",
+      "ReadSpeed": "14500MB/s",
+      "WriteSpeed": "13500MB/s"
+    }
+  },
+  {
+    "Id": "hdd-20tb-enterprise",
+    "Category": "Storage",
+    "Name": "HDD 20TB Enterprise",
+    "Brand": "Seagate Exos",
+    "Price": 2999.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-2000w-80t-atx3",
+    "Category": "PSU",
+    "Name": "Fonte 2000W 80+ Titanium ATX3.0",
+    "Brand": "Seasonic",
+    "Price": 3499.9,
+    "Attributes": {
+      "WattageW": "2000",
+      "Certification": "80+ Titanium",
+      "Modular": "Full"
+    }
+  },
+  {
+    "Id": "case-phanteks-nv9",
+    "Category": "Case",
+    "Name": "Phanteks NV9",
+    "Brand": "Phanteks",
+    "Price": 1799.9,
+    "Attributes": {
+      "Type": "Super Tower",
+      "FansIncluded": "0",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "cooler-liquid-480mm",
+    "Category": "Cooler",
+    "Name": "Water Cooler 480mm",
+    "Brand": "Lian Li",
+    "Price": 1499.9,
+    "Attributes": {
+      "Type": "Líquido",
+      "RadiatorSize": "480mm",
+      "RGB": "Sim"
+    }
+  },
+  {
+    "Id": "fan-140mm-argb",
+    "Category": "Cooler",
+    "Name": "Fan 140mm ARGB",
+    "Brand": "Lian Li",
+    "Price": 199.9,
+    "Attributes": {
+      "Size": "140mm",
+      "RGB": "Sim",
+      "Speed": "2000RPM"
+    }
+  },
+  {
+    "Id": "mb-b850m",
+    "Category": "Motherboard",
+    "Name": "Gigabyte B850M AORUS ELITE",
+    "Brand": "Gigabyte",
+    "Price": 2199.0,
+    "Attributes": {
+      "Socket": "AM5",
+      "MemoryType": "DDR5",
+      "MaxMemoryMHz": "7600",
+      "Slots": "4",
+      "PCIe": "5.0"
+    }
+  },
+  {
+    "Id": "cpu-pentium-g7400",
+    "Category": "CPU",
+    "Name": "Intel Pentium G7400",
+    "Brand": "Intel",
+    "Price": 399.9,
+    "Attributes": {
+      "Socket": "LGA1700",
+      "TdpW": "46",
+      "Cores": "2",
+      "Threads": "4",
+      "Clock": "3.7GHz"
+    }
+  },
+  {
+    "Id": "cpu-athlon-300ge",
+    "Category": "CPU",
+    "Name": "AMD Athlon 300GE",
+    "Brand": "AMD",
+    "Price": 349.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "35",
+      "Cores": "2",
+      "Threads": "4",
+      "Clock": "3.4GHz"
+    }
+  },
+  {
+    "Id": "mb-h510m-hdv",
+    "Category": "Motherboard",
+    "Name": "ASRock H510M-HDV",
+    "Brand": "ASRock",
+    "Price": 499.0,
+    "Attributes": {
+      "Socket": "LGA1200",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "2933",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "mb-a320m-s2h",
+    "Category": "Motherboard",
+    "Name": "Gigabyte A320M-S2H",
+    "Brand": "Gigabyte",
+    "Price": 449.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "gpu-gt-1010",
+    "Category": "GPU",
+    "Name": "NVIDIA GT 1010",
+    "Brand": "NVIDIA",
+    "Price": 299.9,
+    "Attributes": {
+      "TdpW": "20",
+      "VRAM": "2GB",
+      "Clock": "1.15GHz"
+    }
+  },
+  {
+    "Id": "gpu-rx-540",
+    "Category": "GPU",
+    "Name": "AMD RX 540",
+    "Brand": "AMD",
+    "Price": 399.9,
+    "Attributes": {
+      "TdpW": "50",
+      "VRAM": "2GB",
+      "Clock": "1.21GHz"
+    }
+  },
+  {
+    "Id": "ram-4gb-ddr4-2400-single",
+    "Category": "RAM",
+    "Name": "4GB DDR4 2400MHz (Single Channel)",
+    "Brand": "Kingston ValueRAM",
+    "Price": 119.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2400",
+      "Latency": "CL17"
+    }
+  },
+  {
+    "Id": "ram-8gb-ddr4-2666-single",
+    "Category": "RAM",
+    "Name": "8GB DDR4 2666MHz (Single Channel)",
+    "Brand": "Crucial",
+    "Price": 179.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2666",
+      "Latency": "CL19"
+    }
+  },
+  {
+    "Id": "ssd-240gb-sata",
+    "Category": "Storage",
+    "Name": "SSD SATA 240GB",
+    "Brand": "Kingston A400",
+    "Price": 129.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "500MB/s",
+      "WriteSpeed": "350MB/s"
+    }
+  },
+  {
+    "Id": "hdd-1tb-sata",
+    "Category": "Storage",
+    "Name": "HDD 1TB SATA",
+    "Brand": "WD Blue",
+    "Price": 199.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-350w-80-white",
+    "Category": "PSU",
+    "Name": "Fonte 350W 80+ White",
+    "Brand": "EVGA",
+    "Price": 179.9,
+    "Attributes": {
+      "WattageW": "350",
+      "Certification": "80+ White",
+      "Modular": "Não"
+    }
+  },
+  {
+    "Id": "case-generico-atx",
+    "Category": "Case",
+    "Name": "Gabinete Genérico ATX",
+    "Brand": "Rise Mode",
+    "Price": 129.9,
+    "Attributes": {
+      "Type": "ATX",
+      "FansIncluded": "1",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-stock-intel",
+    "Category": "Cooler",
+    "Name": "Cooler Stock Intel",
+    "Brand": "Intel",
+    "Price": 0.0,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "65W",
+      "Noise": "38.0dB"
+    }
+  },
+  {
+    "Id": "fan-80mm-basico",
+    "Category": "Cooler",
+    "Name": "Fan 80mm Básico",
+    "Brand": "Cooler Master",
+    "Price": 29.9,
+    "Attributes": {
+      "Size": "80mm",
+      "RGB": "Não",
+      "Speed": "2000RPM"
+    }
+  },
+  {
+    "Id": "cpu-celeron-g5905",
+    "Category": "CPU",
+    "Name": "Intel Celeron G5905",
+    "Brand": "Intel",
+    "Price": 249.9,
+    "Attributes": {
+      "Socket": "LGA1200",
+      "TdpW": "58",
+      "Cores": "2",
+      "Threads": "2",
+      "Clock": "3.5GHz"
+    }
+  },
+  {
+    "Id": "mb-h310m-hdv",
+    "Category": "Motherboard",
+    "Name": "ASRock H310M-HDV",
+    "Brand": "ASRock",
+    "Price": 399.0,
+    "Attributes": {
+      "Socket": "LGA1151",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "2666",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "gpu-gt-730",
+    "Category": "GPU",
+    "Name": "NVIDIA GT 730",
+    "Brand": "NVIDIA",
+    "Price": 349.9,
+    "Attributes": {
+      "TdpW": "25",
+      "VRAM": "2GB",
+      "Clock": "0.7GHz"
+    }
+  },
+  {
+    "Id": "ram-2gb-ddr4-2133",
+    "Category": "RAM",
+    "Name": "2GB DDR4 2133MHz",
+    "Brand": "Hikvision",
+    "Price": 79.9,
+    "Attributes": {
+      "Type": "DDR4",
+      "FreqMHz": "2133",
+      "Latency": "CL15"
+    }
+  },
+  {
+    "Id": "ssd-120gb-sata-velho",
+    "Category": "Storage",
+    "Name": "SSD SATA 120GB (Usado)",
+    "Brand": "Genérico",
+    "Price": 59.9,
+    "Attributes": {
+      "Type": "SATA",
+      "ReadSpeed": "300MB/s",
+      "WriteSpeed": "200MB/s"
+    }
+  },
+  {
+    "Id": "psu-300w-generic",
+    "Category": "PSU",
+    "Name": "Fonte 300W Genérica",
+    "Brand": "Genérico",
+    "Price": 99.9,
+    "Attributes": {
+      "WattageW": "300",
+      "Certification": "Não",
+      "Modular": "Não"
+    }
+  },
+  {
+    "Id": "case-micro-atx-old",
+    "Category": "Case",
+    "Name": "Gabinete Micro ATX Antigo",
+    "Brand": "Genérico",
+    "Price": 89.9,
+    "Attributes": {
+      "Type": "Micro-ATX",
+      "FansIncluded": "0",
+      "RGB": "Não"
+    }
+  },
+  {
+    "Id": "cooler-aluminium",
+    "Category": "Cooler",
+    "Name": "Cooler Alumínio Básico",
+    "Brand": "Genérico",
+    "Price": 39.9,
+    "Attributes": {
+      "Type": "Ar",
+      "TDP": "65W",
+      "Noise": "40.0dB"
+    }
+  },
+  {
+    "Id": "cpu-a6-9500",
+    "Category": "CPU",
+    "Name": "AMD A6-9500",
+    "Brand": "AMD",
+    "Price": 199.9,
+    "Attributes": {
+      "Socket": "AM4",
+      "TdpW": "65",
+      "Cores": "2",
+      "Threads": "2",
+      "Clock": "3.5GHz"
+    }
+  },
+  {
+    "Id": "mb-a320m-k",
+    "Category": "Motherboard",
+    "Name": "ASUS PRIME A320M-K",
+    "Brand": "ASUS",
+    "Price": 429.0,
+    "Attributes": {
+      "Socket": "AM4",
+      "MemoryType": "DDR4",
+      "MaxMemoryMHz": "3200",
+      "Slots": "2",
+      "PCIe": "3.0"
+    }
+  },
+  {
+    "Id": "gpu-r5-230",
+    "Category": "GPU",
+    "Name": "AMD R5 230",
+    "Brand": "AMD",
+    "Price": 199.9,
+    "Attributes": {
+      "TdpW": "19",
+      "VRAM": "1GB",
+      "Clock": "0.6GHz"
+    }
+  },
+  {
+    "Id": "ram-1gb-ddr3",
+    "Category": "RAM",
+    "Name": "1GB DDR3 1333MHz",
+    "Brand": "Genérico",
+    "Price": 49.9,
+    "Attributes": {
+      "Type": "DDR3",
+      "FreqMHz": "1333",
+      "Latency": "CL9"
+    }
+  },
+  {
+    "Id": "hdd-320gb-sata",
+    "Category": "Storage",
+    "Name": "HDD 320GB SATA",
+    "Brand": "Seagate Barracuda",
+    "Price": 89.9,
+    "Attributes": {
+      "Type": "HDD",
+      "RPM": "7200"
+    }
+  },
+  {
+    "Id": "psu-250w-old",
+    "Category": "PSU",
+    "Name": "Fonte 250W Antiga",
+    "Brand": "Genérico",
+    "Price": 69.9,
+    "Attributes": {
+      "WattageW": "250",
+      "Certification": "Não",
+      "Modular": "Não"
+    }
+  }
+]
