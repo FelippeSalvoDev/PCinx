@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pcinx-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28bb4dd0c9bd91dfde57503496f634561a4d7350")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b17836596a6dac6bf39dfb1de4f419ed835a011")]
 [assembly: System.Reflection.AssemblyProductAttribute("pcinx-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pcinx-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

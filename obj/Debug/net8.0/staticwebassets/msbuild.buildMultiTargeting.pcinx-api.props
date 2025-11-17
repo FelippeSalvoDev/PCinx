@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/pcinx-api.props" />
+  <Import Project="..\build\pcinx-api.props" />
 </Project>
